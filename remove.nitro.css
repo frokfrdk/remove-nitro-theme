@@ -1,0 +1,37 @@
+/**
+ * @name Remove Nitro
+ * @version 2.0
+ * @description Removes several annoying Discord Nitro effects making the app more like how it was in 2017
+ * @author frokfrdk
+ *
+ * @invite FcS5VFDdJ2
+ */
+
+.container__4bbc6,.container_df39b2, .container_AFi54G /*discord nameplate backgrounds*/{
+	display:none;
+}
+
+.profileEffects__01370,.profileEffects__0dd08, .profileEffects_ZjcCyW /*Annoying ass profile effects*/{
+	display:none;
+}
+
+.clanTag__5d473, span.clanTag_Iy0c7A /*clan tag remover*/{
+	display:none;
+}
+
+/*.channel__972a0:not(.dm__972a0){
+	display: none;
+}
+*/
+
+.wrapper__553bf{
+	display: none;
+}
+
+.newBadge__4ed1a, .newBadge_SMljHk /*removes new badge from the shop menu in DMs*/{
+	display: none;
+}
+
+.marketingButtonBackgroundNew_SMljHk /*removes animated background when hovering over the shop menu in DMs{
+	display: none;
+}
